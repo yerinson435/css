@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.spidy{
+  margin: 0 auto;
+  display: block;
+  width: 300px;
+  height: 100;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow:10px 0px 20px 0px #3e3e3e;
+}
+
+.box{
+  width: 300px;
+  height: 170px;
+  margin: 0 auto;
+  display: block;
+  background: rgb(255, 255, 255);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow:10px 0px 20px 0px #3e3e3e;
+  place-content: center;
+  text-align: center;
+}
+
+.goku{
+  /* text-align: center; */
+  margin: 0 auto;
+  display: block;
+  width: 500px;
+  /* box-shadow: rgb(207, 207, 83); */
+  filter: drop-shadow(0px 0px 30px #fbff00);
+}
